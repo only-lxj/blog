@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0 auto; padding:0; font-size:12px; font-family:"宋体";}
+h1,h2,ul,li,img,dl,dt,dd{margin:0; padding:0; list-style:none; border:0;}
+.section{width:100%; height:100%; background:url(../images/2.jpg) no-repeat center; background-size:cover;-webkit-background-size: cover; -o-background-size: cover;}
+.slide{width:100%; height:100%; background:url(../images/119498024731cff2e3o.jpg) no-repeat center; background-size:cover;-webkit-background-size: cover; -o-background-size: cover;}
+#main{}
+#nav{position:fixed; top:0; left:auto; background-color:rgba(255,255,255,0.8); z-index:10; width:100%; height:65px; border-bottom:1px solid #e92a9e;}
+#nav img{width:55px; height:55px; float:left; position:absolute; top:5px; left:60px;}
+#nav ul{float:right; width:600px; height:65px; position:absolute; top:0; right:100px;}
+#nav ul li{float:left; width:150px; height:65px; text-align:center; line-height:65px;}
+#nav ul li a{text-decoration:none; font-size:20px; color:#000; font-family:"幼圆";}
+#nav ul li .chosed{color:#e92a9e; padding-bottom:20px; border-bottom:3px solid #e92a9e;}
+#nav ul li a:hover{color:#e92a9e; padding-bottom:20px; border-bottom:3px solid #e92a9e;}
+#div1{width:100%; height:100%; background:url(../images/indexBg.jpg) no-repeat center; background-size:cover;-webkit-background-size: cover; -o-background-size: cover; position:relative;}
+#div2{width:100%; height:100%; background:url(../images/bg1.jpg) no-repeat center; background-size:cover;-webkit-background-size: cover; -o-background-size: cover; position:relative;}
+#spring{width:100%; height:100%; background:url(../images/spring.jpg) no-repeat center; background-size:cover;-webkit-background-size: cover; -o-background-size: cover; position:relative;}
+#summer{width:100%; height:100%; background:url(../images/summer.jpg) no-repeat center; background-size:cover;-webkit-background-size: cover; -o-background-size: cover; position:relative;}
+#autumn{width:100%; height:100%; background:url(../images/autumn.jpg) no-repeat center; background-size:cover;-webkit-background-size: cover; -o-background-size: cover; position:relative;}
+#winter{width:100%; height:100%; background:url(../images/winter.jpg) no-repeat center; background-size:cover;-webkit-background-size: cover; -o-background-size: cover; position:relative;}
+#heading1{position:absolute; top:180px; left:470px; font-family:"方正稚艺简体"; font-size:108px; color:#f09c9a;}
+#heading2{position:absolute; top:280px; left:700px; font-family:"方正稚艺简体"; font-size:48px; color:#f09c9a;}
+#heading3{position:absolute; top:350px; left:700px; font-family:"方正稚艺简体"; font-size:108px; color:#f09c9a;}
+#heading4{position:absolute; top:300px; left:499px; font-family:"方正稚艺简体"; font-size:20px; color:#020202;}
+#go{position:absolute; top:40px; right:80px;}
+#cat img{position:absolute; top:273px; left:1016px; width:120px; height:120px;}
+.photo{max-width:1000px; margin:100px auto; position:relative; top:-250px; left:30px;}
+.photo img{width:280px; border:5px solid #edb9d0; box-shadow:3px 3px 3px rgba(50,50,50,0.5); position:absolute; z-index:1; background:#fff;}
+.photo img:nth-child(1){left:65px; top:-70px; width:450px; height:360px;}
+.photo img:nth-child(2){left:580px; top:-70px; width:320px; height:256px}
+.photo img:nth-child(3){left:65px; top:320px; width:200px; height:160px}
+.photo img:nth-child(4){left:315px; top:320px; width:200px; height:160px}
+.photo img:nth-child(5){left:580px; top:224px; width:320px; height:256px}
+.photo img:hover{-webkit-transform:scale(1.5); -ms-transform:scale(1.5); transform:scale(1.5); -webkit-transition:all 0.5s ease-in; transition:all 0.5s ease-in; z-index: 2;}
+#winter{position:relative;}
+#goHome{position:absolute; left:930px; top:460px; font-size:36px;}
+#goHome a{text-decoration:none; font-family:"方正稚艺简体"; color:#000;}

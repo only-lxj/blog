@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>花花世界</title>
+<link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+<link href="../css/homeStyle.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="../css/custom.css" />
+<script type="text/javascript" src="../JS/JavaScript.js"></script> 
+</head>
+
+<body>
+    <div id="leftnav">
+        <div id="information">
+            <img id="huahua" src="../images/huahua.png" />
+            <p>花花&nbsp;&nbsp;&nbsp; ♀ &nbsp;&nbsp;&nbsp;20岁</p>
+            <p>爱猫·爱花·爱生活</p>
+        </div>
+        <div id="detail">
+            <img src="../images/bighuahua.jpg" />
+            <div id="detailContent">
+                昵称：花花<br/>性别：女<br/>年龄：20岁<br/>血型：B型<br/>生日：1995.02.28<br/>所在地：中国·武汉<br/>职业：学生<br/>简介：爱猫·爱花·爱生活
+            </div>
+            <ul>
+                <li><a href="http://weibo.com/" target="_blank"><img src="../images/weibo.png" /></a></li>
+                <li><a href="http://www.lofter.com/" target="_blank"><img src="../images/lofter.png" /></a></li>
+                <li><a href="http://www.douban.com/" target="_blank"><img src="../images/douban.png" /></a></li>
+            </ul>
+        </div>
+        <script type="text/javascript">
+            var huahua=document.getElementById('huahua');
+            var detail=document.getElementById('detail');
+            var timer=null;
+            huahua.onmouseover=detail.onmouseover=function()
+            {
+                clearTimeout(timer);
+                setTimeout(function(){detail.style.display='block'},800);
+            }
+            huahua.onmouseout=detail.onmouseout=function()
+            {
+                timer=setTimeout(function(){detail.style.display='none'},800);
+            }
+        </script>    
+        <div id="nav1" style="background-color:#F1B8ED;"><div><img src="../images/nav1.png" />首页</div></div>
+        <div id="nav2"><a href="baike.html"><div><img src="../images/nav2.png" />百科</div></a></div>
+        <div id="nav3"><a href="rizhi.html"><div><img src="../images/nav3.png" />日志</div></a></div>
+        <script type="text/javascript">
+            var nav2=document.getElementById("nav2");
+            var nav3=document.getElementById("nav3");
+            nav2.onmouseover=nav3.onmouseover=function(){this.style.backgroundColor='#F1B8ED';this.style.fontSize='28px';}
+            nav2.onmouseout=nav3.onmouseout=function(){this.style.backgroundColor='#fff';this.style.fontSize='28px';}
+        </script>
+        <img src="../images/homecat.png" />
+    </div>
+
+	<div id="main">
+    	<div id="miss"></div>
+        <div class="homeBg"></div>
+    </div>
+
+</body>
+</html>

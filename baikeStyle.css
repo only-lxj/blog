@@ -1,0 +1,18 @@
+/* CSS Document */
+#main{width:77%; height:800px; position:absolute; left:23%; top:0;}
+#miss{background:#e5f1ff; width:23%; height:100%; position:fixed; z-index:900; top:0; left:0; border-right:2px solid #ccc;}
+.menu-panel{background:#e5f1ff;}
+.menu-toc li a{background:#e5f1ff;}
+.menu-toc li a:hover, .menu-toc li.menu-toc-current a{background:#D1D0EC;}
+.bb-custom-wrapper nav span, .menu-button{background:#D1D0EC;}
+.bb-custom-wrapper nav span:hover, .menu-button:hover{background:#e5f1ff;}
+
+.article{width:100%; height:100%; position:relative;}
+.baikeBg{width:100%; height:100%; position:relative; background:url(../images/baikeBg.jpg) no-repeat center; background-size:cover;-webkit-background-size: cover; -o-background-size: cover;}
+.articleLeft{width:45%; height:90%; position:absolute; top:8%; left:3%;}
+.articleLeft img{float:right; width:200px; height:200px; padding-left:9px;}
+.articleRight{width:45%; height:90%; position:absolute; top:8%; right:3%;}
+.article table{position:absolute; left:50%; top:8%; height:600px; border-color:#999; border-left-style:solid; border-width:2px;}
+.article h{font-size:28px; text-align:center; line-height:50px; font-family:"微软雅黑"; font-weight:normal;}
+.article span{font-size:18px; font-family:"微软雅黑"; font-weight:normal;}
+.article p{font-size:16px; font-weight:normal; font-family:"宋体"; line-height:24px; text-indent:2em;}

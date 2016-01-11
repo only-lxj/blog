@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>花花世界</title>
+<link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+<link href="../css/rizhiStyle.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../JS/JavaScript.js"></script> 
+<link rel="stylesheet" type="text/css" href="../css/bookblock.css" />
+<link rel="stylesheet" type="text/css" href="../css/custom.css" />
+<script src="../JS/modernizr.custom.79639.js"></script>
+</head>
+
+<body>
+    <div id="leftnav">
+        <div id="information">
+            <img id="huahua" src="../images/huahua.png" />
+            <p>花花&nbsp;&nbsp;&nbsp; ♀ &nbsp;&nbsp;&nbsp;20岁</p>
+            <p>爱猫·爱花·爱生活</p>
+        </div>
+        <div id="detail">
+            <img src="../images/bighuahua.jpg" />
+            <div id="detailContent">
+                昵称：花花<br/>性别：女<br/>年龄：20岁<br/>血型：B型<br/>生日：1995.02.28<br/>所在地：中国·武汉<br/>职业：学生<br/>简介：爱猫·爱花·爱生活
+            </div>
+            <ul>
+                <li><a href="http://weibo.com/" target="_blank"><img src="../images/weibo.png" /></a></li>
+                <li><a href="http://www.lofter.com/" target="_blank"><img src="../images/lofter.png" /></a></li>
+                <li><a href="http://www.douban.com/" target="_blank"><img src="../images/douban.png" /></a></li>
+            </ul>
+        </div>
+        <script type="text/javascript">
+            var huahua=document.getElementById('huahua');
+            var detail=document.getElementById('detail');
+            var timer=null;
+            huahua.onmouseover=detail.onmouseover=function()
+            {
+                clearTimeout(timer);
+                setTimeout(function(){detail.style.display='block'},800);
+            }
+            huahua.onmouseout=detail.onmouseout=function()
+            {
+                timer=setTimeout(function(){detail.style.display='none'},800);
+            }
+        </script>
+        <img src="../images/homecat.png" />
+        <div id="nav1"><a href="home.html"><div><img src="../images/nav1.png" />首页</div></a></div>
+        <div id="nav2"><a href="baike.html"><div><img src="../images/nav2.png" />百科</div></a></div>
+        <div id="nav3" style="background-color:#F1B8ED;"><div><img src="../images/nav3.png" />日志</div></div>
+        <script type="text/javascript">
+            var nav2=document.getElementById("nav2");
+            var nav1=document.getElementById("nav1");
+            nav2.onmouseover=nav1.onmouseover=function(){this.style.backgroundColor='#F1B8ED';this.style.fontSize='28px';}
+            nav2.onmouseout=nav1.onmouseout=function(){this.style.backgroundColor='#fafde0';this.style.fontSize='28px';}
+        </script>
+    </div>
+    
+        <div id="writeComment">
+        	<br/><br/>
+            <textarea id="txt1" name="txt1" cols="40" rows="8"></textarea><br/><br/><br/>
+            <input id="submit" type="image" src="../images/submit.png" style="height:29px; width:57px;" />&nbsp;&nbsp;
+            <input id="close2" type="image" src="../images/close.png" style="height:29px; width:57px;" /> 
+        </div>
+        <div id="writeComment1"></div>
+    
+    <div id="commentArea" style="position:absolute; left:66%; top:-580px;">
+    	
+    	<div style="filter:alpha(opacity:100); opacity:1;">
+        	
+            <p style="color:#e1875b;padding:10px 0 0 0; line-height:30px;"><img src="../images/huahua.png" align="absmiddle" />花花</p>
+            <p style="padding-bottom:10px;">这是一条长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长长评论</p>
+            <span style="font-size:12px;">2015/9/14&nbsp;&nbsp;10:18</span>
+            <a href="javascript:;">删除</a><br/>
+   		</div>
+    	<div style="filter:alpha(opacity:100); opacity:1;">
+        	
+            <p style="color:#e1875b;padding:10px 0 0 0;"><img src="../images/huahua.png" align="absmiddle" />花花</p>
+            <p style="padding-bottom:10px;">这是一条没用的评论</p>
+            <span style="font-size:12px;">2015/9/13&nbsp;&nbsp;08:06</span>
+            <a href="javascript:;">删除</a><br/>
+    	</div>
+        <input id="close" type="image" src="../images/close.png" style="height:29px; width:57px; position:absolute; bottom:20px; right:30px;" />
+                       
+	</div>
+
+	<div id="main">
+		<div id="container" class="container">
+        	<div id="miss"></div>
+			<div class="menu-panel">
+				<h3>目录
+                <div id="searchFrame">
+                <input id="searchArea" type="text" style="height:24px;" />
+				<input id="search" type="button" value="搜索" />
+                </div></h3>
+				<ul id="menu-toc" class="menu-toc">
+					<li class="menu-toc-current"><a href="#item1">封面</a></li>
+					<li><a href="#item2">五星花开出第一朵花</a></li>
+					<li><a href="#item3">秋日的爬山虎</a></li>
+					<li><a href="#item4">荷花的美</a></li>
+                    <li><a href="#item5">亲戚家的吊兰</a></li>
+                    <div id="badSearch">抱歉，搜索内容不存在</div>
+				</ul>
+			</div>
+			<div class="bb-custom-wrapper">
+				<div id="bb-bookblock" class="bb-bookblock">
+					<div class="bb-item" id="item1">
+						<div class="article">
+                        	<div class="rizhiBg"></div>
+                        </div>
+					</div>
+                    
+					<div class="bb-item" id="item2">
+						<div class="article">
+                        	<div class="articleLeft">
+                            <h>五星花开出第一朵花<span>2015-07-21</span></h><br/>
+<p>前年入秋时，我在我家附近，偶然发现了一棵五星花的苗，我不由得十分惊喜。记得前些年，我家曾种过这种花，鲜红鲜红的，就像一颗颗灿烂的小红星点缀在绿叶之中，十分好看。</p>
+<div class="rizhiImg"><img src="../images/flowers/rizhi1.1.jpg" /></div>
+<p>我把五星花苗小心翼翼的移植到盆里，并且在花盆里横竖扎了几根竹子。过了几天，花苗竟长到了将近1尺高，翠绿的嫩藤向四面伸展开，真逼人喜爱。我便在盆里插了几根竹子，为了让嫩藤更加展现她的英姿。又过了几天，花苗越长越高，往后就悄悄爬满了花棚，看了真叫人高兴。</p>
+<div class="rizhiImg"><img src="../images/flowers/rizhi1.2.jpg" /></div>
+                            </div>
+                            <table><tr><td valign="top"></td></tr></table>
+                            <div class="articleRight">                         
+<p>谁料，天气突然转冷了，我忐忑不安，心想：像五星花这样娇嫩的植物会不会因天气转冷而不会开花呢？一天我回家后，竟然在阳台看到上有一星红点——五星花开出第一朵花。</p>
+<div class="pinglun">
+    <input id="write" type="image" src="../images/写评论.png" style="height:29px; width:94px;" />&nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="read" type="image" src="../images/看评论.png" style="height:29px; width:94px;" />
+</div>
+                            </div>
+                            
+                        </div>                        
+					</div>
+					<div class="bb-item" id="item3">
+						<div class="article">
+                        	<div class="articleLeft">
+                            <h>秋日的爬山虎<span>2015-07-22</span></h><br/>
+<p>中秋节一过，大院对面的的铁栅栏上的浓浓密密的爬山虎变红了，在阳光的照射下，像一团焚烧的火焰，热烈而又豪放。</p>
+<div class="rizhiImg"><img src="../images/flowers/rizhi2.1.png" /></div>
+<p>在每一年瑟瑟的秋风中，大院里的各种花卉渐渐地谢了，小草尽管还有绿色，可是已没有了精气神，好像被秋霜按在了地上。唯有爬山虎，在秋风里唱响漂亮，几乎是一夜秋霜今后，它改变了以前密密丛丛的绿色的身姿，不断的改换色彩，悠然之间便红了、火了，红得深重，红得稳重。叶子有橙黄，浅红，深红，还有半绿半红的，色彩斑驳。一片片叶子像一把把赤色的小扇子，随风起舞，红光流彩。</p>
+<div class="rizhiImg"><img src="../images/flowers/rizhi2.2.jpg" /></div>
+
+                            </div>
+                            <table><tr><td valign="top"></td></tr></table>
+                            <div class="articleRight">                         
+<p>只要是在秋日的傍晚，斜阳的霞光洒在千米之长的爬山虎长廊上，许多红叶迎候落日，它们一起送走晚霞，同心迎来新的初升的太阳。此刻，悉数大院沐浴在落日的余晖里，更加安定而又祥和，带着静静的据守与贡献。</p>
+<div class="rizhiImg"><img src="../images/flowers/rizhi2.3.png" /></div>
+<p>茂盛的爬山虎散发着浓浓的秋意，绽放着绚烂的笑脸，显现着生命的魅力。是希望，是热血，是收成，好像每一片红叶都写满无限的遐思，挂着一个又一个的故事，将生命化为持久。从春到夏，爬山虎没有人精心呵护，没有人来拔它，没有人修剪它。但它沐浴着大自然的阳光雨露，高枕无忧地成长，从不夸耀，更不张扬，用自个的绿色生命点缀人们的心情。在我心中，爬山虎的绿，是一种怡人的绿。</p>
+<div class="pinglun">
+    <input id="write1" type="image" src="../images/写评论.png" style="height:29px; width:94px;" />&nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="read1" type="image" src="../images/看评论.png" style="height:29px; width:94px;" />
+</div>
+                            </div>
+                        </div>
+					</div>
+					<div class="bb-item" id="item4">
+						<div class="article">
+                        	<div class="articleLeft">
+                            <h>荷花的美<span>2015-07-23</span></h><br/>
+<p>开发区的马路一边，有一大片荷塘，荷塘里的荷花大朵大朵的，讨人喜欢。我走在田埂上，田埂上都是旺盛的杂草，田埂间有水沟，流动的都是浑浊的臭水。杂乱无章的臭水沟，在荷塘间弯曲，日夜灌溉荷塘，每时每刻喂食荷花。</p>
+<div class="rizhiImg"><img src="../images/flowers/rizhi3.1.jpg" /></div>
+<p>我大概看了一下，臭水是邻近众多的商品房地下流动来的污水，水泥路下，荷塘上，处处堆积臭哄哄的垃圾。在这么的环境中，在这么的臭水浸泡的污泥里，荷花却开得很大，很娇美，让我惊叹不已，困惑不解。</p>
+<div class="rizhiImg"><img src="../images/flowers/rizhi3.2.png" /></div>
+                            </div>
+                            <table><tr><td valign="top"></td></tr></table>
+                            <div class="articleRight">                         
+<p>我从心底发生了一些疑问：为何如此娇媚？为何如此娇美？我突发创意，找到了答案，因为，这儿有臭水，这儿的污泥更污。好像臭水更养荷花，污泥更养荷花。当然，荷花对于污泥而言，并非被迫，而是如此的主动。自动吸收污泥，还能化解污泥，充分消化污泥的营养，净化了污泥，使污泥成为自己生命繁荣生长的养分。</p>
+<div class="rizhiImg"><img src="../images/flowers/rizhi3.3.png" /></div>
+<p>是的，一个纯真的人，不管在任何环境中，应该坚持纯真高昂的心里，像守望云天苍穹的荷花，不会被喧嚣的物欲的尘世所制约，而是终身纯洁，，如同在污泥里绚烂而纯真的荷花。</p>
+<div class="pinglun">
+    <input id="write2" type="image" src="../images/写评论.png" style="height:29px; width:94px;" />&nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="read2" type="image" src="../images/看评论.png" style="height:29px; width:94px;" />
+</div>
+                            </div>
+                        </div>
+					</div>
+					<div class="bb-item" id="item5">
+						<div class="article">
+                        	<div class="articleLeft">
+                            <h>亲戚家的吊兰<span>2015-07-24</span></h><br/>
+<p>人的爱好就是不一样啊，今天去一远方的亲戚家，发现，他的家里也养植物，但是只有一种，就是吊兰。客厅餐厅卧室和阳台上摆放着一盆盆郁郁葱葱的吊兰，清新雅致，令人赏心悦目。。我好奇的问他，他说：好养啊。</p>
+<div class="rizhiImg"><img src="../images/flowers/rizhi4.1.png" /></div>
+<p>吊兰的叶片层层叠叠，向四周舒展着，并微微向下悬垂。微风吹来，仿佛是朵朵绽开的烟花。金边吊兰的绿叶边缘两侧镶有黄白色的条纹，纯绿叶吊兰叶子全都是绿色的。叶子绿得发亮，显露出来一派生机勃勃、欣欣向荣的景象。</p>
+<div class="rizhiImg"><img src="../images/flowers/rizhi4.2.png" /></div>
+                            </div>
+                            <table><tr><td valign="top"></td></tr></table>
+                            <div class="articleRight">                         
+<p>夏季吊兰长得更加茂盛。叶丛中抽出一根根柔软的枝条，枝条上绽放出朵朵小白花，小巧玲珑，闻起来有淡淡的清香。白色的小花就像一个害羞的小姑娘躲进了茂密的叶丛中，与我玩起了捉迷藏。那枝条却越长越长，沿着盆沿向外斜垂下来。枝条的各个茎端，又生长着大大小小的新株。那悬动的丛丛新株，远远望去，就像一个个晃动的“小秋千”。</p>
+<div class="rizhiImg"><img src="../images/flowers/rizhi4.3.png" /></div>
+<p>吊兰的花瓣白白的，每一片花瓣都像一个椭圆形的木瓜，而黄色的花蕾缀其中，低下头一闻，淡淡的清香使人神清气爽。绿色的叶子衬托着这白色的花瓣，既秀丽又淡雅。</p>
+<p>吊兰还可以吸收空气中的二氧化碳，释放氧气，从而起到净化空气的作用。</p>
+<div class="pinglun">
+    <input id="write3" type="image" src="../images/写评论.png" style="height:29px; width:94px;" />&nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="read3" type="image" src="../images/看评论.png" style="height:29px; width:94px;" />
+</div>
+                            </div>
+                        </div>
+					</div>
+				</div>				
+				<nav>
+					<span id="bb-nav-prev">&larr;</span>
+					<span id="bb-nav-next">&rarr;</span>
+				</nav>
+				<span id="tblcontents" class="menu-button">目录</span>
+			</div>
+		</div>
+		<script src="../JS/jquery.min.js"></script>
+		<script src="../JS/jquery.jscrollpane.min.js"></script>
+		<script src="../JS/jquery.bookblock.js"></script>
+		<script src="../JS/page.js"></script>
+		<script>$(function() {Page.init();});</script>
+    </div>
+
+</body>
+</html>
